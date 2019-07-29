@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/interest', 'interestController@index');
+Route::get('/interest/create', 'interestController@create');
